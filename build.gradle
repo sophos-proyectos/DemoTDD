@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'org.sonarqube' version '2.6'
+    id 'jacoco'
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+sonarqube {
+    properties {
+        property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.login", "a9543b8428b2c9472c365e4d41fdf145271ba6bb"
+        property "sonar.organization", "rjrb-bitbucket"
+        property "sonar.scm.disabled", "True"
+    }
+}

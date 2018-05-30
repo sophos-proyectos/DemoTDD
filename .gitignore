@@ -21,3 +21,20 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# IDE usual files and folders
+/.gradle/
+/.idea/
+/.nb-gradle/
+/build/
+/dist/
+/logs/
+/nbproject/private/
+/out/
+*.iml
+*.json
+*.log
+*.exe
+*.zip
+*.txt
+Thumbs.db
