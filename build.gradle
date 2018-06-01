@@ -20,7 +20,7 @@ sonarqube {
     properties {
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.login", "2e7818d4c50749bfcef2b46c50a479bbb0fc25a3"
-        property "sonar.organization", "sophos-rjrb-bitbucket"
+        property "sonar.organization", "rjrb-bitbucket"
         property "sonar.scm.disabled", "True"
     }
 }
